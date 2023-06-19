@@ -1,0 +1,11 @@
+{
+    "amount":10000,
+    "name":"Ravi",
+    "email":"ravi.rock7552@gmail.com",
+    "phonenumber":7895722209,
+    "minAmount":"0000",
+    "maxAmount":"30000",
+    "numericName":12345,
+    "wrongPhoneNumber":78957,
+    "wrongEmail":"ravi.rock7552gmail.com"
+}

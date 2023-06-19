@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cypress": "^12.14.0",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.2.0",
+    "xpath_cypress": "^1.0.2"
+  },
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "This for PortOne Automation Assignment",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
