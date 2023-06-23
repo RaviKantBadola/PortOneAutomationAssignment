@@ -60,6 +60,10 @@ class paymentPage_PO {
     );
   }
 
+  forcheckingthecolor(){
+    cy.xpath("(//button[contains(text(),'PAY NOW')])[1]").should('have.css', 'background-color').and('eq', 'rgb(255, 118, 40)')
+  }
+
   invalidAmountAlert() {
     cy.xpath("(//div[@class='MuiAlert-message css-1w0ym84'])[1]").should(
       "have.text",

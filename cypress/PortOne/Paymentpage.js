@@ -15,7 +15,7 @@ describe("Payment Page Test suite", () => {
     Paymentpage.thaiLanguage();
   });
 
-  it("Validating amount for valid data,TC-04", () => {
+  it.only("Validating amount for valid data,TC-04", () => {
     cy.fixture('infoData').then((data)=>{
       Paymentpage.englishLanguage();
       Paymentpage.setAmount(data.amount);
@@ -24,8 +24,9 @@ describe("Payment Page Test suite", () => {
       Paymentpage.setPhonecodeIndiaRegion();
       Paymentpage.setMobileNumber(data.phonenumber);
       Paymentpage.setPaymentConformationForYes();
+      Paymentpage.forcheckingthecolor();
       Paymentpage.payNowButton();
-
+      
     })
     
   });
@@ -220,4 +221,6 @@ describe("Payment Page Test suite", () => {
   });
 });
   
+
+
 });
